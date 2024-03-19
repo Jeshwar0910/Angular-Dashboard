@@ -1,0 +1,113 @@
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.addbtn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+#add-btn {
+  margin-top: 20px;
+  width: 8%;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+tbody td svg {
+  height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+tbody td button {
+  border: none;
+  background-color: #ffffff;
+}
+tbody td button:hover {
+  background-color: #ffffff;
+}
+
+/* Modal CSS */
+
+form .name-update {
+  box-shadow: inset #abacaf 0 0 0 2px;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  appearance: none;
+  width: 100%;
+  position: relative;
+  border-radius: 3px;
+  padding: 9px 12px;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  transition: all 0.2s ease;
+}
+
+form .name-update:hover {
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+
+form .name-update:focus {
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}
+
+form label {
+  margin: "2px";
+}
+form .state {
+  margin-right: 10px;
+}
+form #Stateid {
+  font-size: 18px;
+  text-decoration: none;
+}
+form #Stateid:hover {
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+form #Stateid:focus {
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+
+form .state {
+  margin-right: 10px;
+}
+form #Stateid {
+  font-size: 18px;
+  text-decoration: none;
+}
+form #Stateid:hover {
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+form #Stateid:focus {
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+form .gender {
+  margin-right: 10px;
+}
+form small {
+  color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
